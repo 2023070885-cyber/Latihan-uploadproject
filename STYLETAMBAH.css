@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+    background-image: url('BG3.png');
+    background-size: cover;        
+    background-repeat: no-repeat;   
+    background-position: center;    
+    background-attachment: fixed; 
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  background-color: #b0b0b0; /* Warna abu-abu muda */
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  width: 350px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+legend {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px; 
+  padding: 0;
+}
